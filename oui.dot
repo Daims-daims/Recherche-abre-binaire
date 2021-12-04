@@ -1,0 +1,9 @@
+strict digraph "" {
+	graph [rankdir=LR];
+	f1 -> f4	[color=green];
+	f1 -> f2	[color=red];
+	f4 -> T	[color=red];
+	f4 -> "_|_"	[color=green];
+	f2 -> T	[color=green];
+	f2 -> "_|_"	[color=red];
+}
